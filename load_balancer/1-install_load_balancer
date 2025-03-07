@@ -40,8 +40,8 @@ frontend samuelkwizera-tech-frontend
 
 backend samuelkwizera-tech-backend
     balance roundrobin
-    server 6433-web-01 35.171.153.111 check
-    server 6433-web-02 54.208.109.110 check
+    server 6433-web-01 35.171.153.111:80 check
+    server 6433-web-02 54.208.109.110:80 check
 "
 
 # shellcheck disable=SC2154
